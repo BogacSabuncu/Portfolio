@@ -1,3 +1,22 @@
+html, body {
+    height: 100%;
+  }
+
 body{
-    background-image: url(../images/dark-honeycomb.png) 
+    background-image: url(../images/dark-honeycomb.png);
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    background-color: #eee;
+    flex: 1 0 auto;
+}
+
+footer{
+    flex-shrink: 0;
+    padding: 25px;
+    height: 8%;
+    width: 100%;
+    background-color: #444;
 }
