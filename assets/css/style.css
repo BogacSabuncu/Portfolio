@@ -20,3 +20,14 @@ footer{
     width: 100%;
     background-color: #444;
 }
+
+.card-img-top{
+    height: 300px;
+    width: auto;
+}
+
+.card
+{
+    position: relative;
+}
+
